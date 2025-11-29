@@ -11,13 +11,13 @@ You can install the package using npm or yarn.
 ### Using npm:
 
 ```bash
-npm install @adrihfly/intersection-hook
+npm install @nimibyte/intersection-hook
 ```
 
 ### Using yarn:
 
 ```bash
-yarn add @adrihfly/intersection-hook
+yarn add @nimibyte/intersection-hook
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ yarn add @adrihfly/intersection-hook
 Wrap your application or component with the IntersectionProvider component to enable the useIntersection hook in any part of the component hierarchy. The provider handles the intersection state and configuration.
 
 ```tsx
-import { IntersectionProvider } from '@adrihle/intersection-hook';
+import { IntersectionProvider } from '@nimibyte/intersection-hook';
 
 const App = () => {
   return (
@@ -47,7 +47,7 @@ Once your application is wrapped by the IntersectionProvider, you can use the us
 This component renders a navigation menu with links to the registered sections. It highlights the active link based on the section currently visible.
 
 ```tsx
-import { useIntersection } from '@adrihle/intersection-hook';
+import { useIntersection } from '@nimibyte/intersection-hook';
 
 const Menu = () => {
   const { sections, activeSection, scrollTo } = useIntersection();
@@ -74,7 +74,7 @@ const Menu = () => {
 The Content component registers the sections and displays them on the page. The sections are automatically detected as they scroll into the visible area of the browser.
 
 ```tsx
-import { useIntersection } from '@adrihle/intersection-hook';
+import { useIntersection } from '@nimibyte/intersection-hook';
 
 const Content = () => {
   const { register } = useIntersection();

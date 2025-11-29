@@ -1,5 +1,5 @@
 {
-  "name": "@adrihfly/intersection-hook",
+  "name": "@nimibyte/intersection-hook",
   "version": "1.0.1-beta.6",
   "description": "React Hook for Tracking Section Visibility in the Viewport",
   "main": "dist/index.cjs.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrihle/intersection-hook.git"
+    "url": "git+https://github.com/nimibyte/intersection-hook.git"
   },
   "keywords": [
     "react",
@@ -29,11 +29,11 @@
     "intersection"
   ],
   "bugs": {
-    "url": "https://github.com/adrihle/intersection-hook/issues"
+    "url": "https://github.com/nimibyte/intersection-hook/issues"
   },
-  "homepage": "https://github.com/adrihle/intersection-hook#readme",
-  "author": "Adrian Lopez Espinosa",
-  "license": "ISC",
+  "homepage": "https://github.com/nimibyte/intersection-hook#readme",
+  "author": "Nimibyte Labs <info@nimibyte.com>",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
