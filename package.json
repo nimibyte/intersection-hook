@@ -1,6 +1,6 @@
 {
   "name": "@nimibyte/intersection-hook",
-  "version": "1.0.1-beta.6",
+  "version": "1.0.1-beta.7",
   "description": "React scrollspy hook powered by IntersectionObserver for active section navigation",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
