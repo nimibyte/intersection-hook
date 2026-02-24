@@ -1,1 +1,6 @@
-export { useIntersection, IntersectionProvider, IntersectionConfig } from './intersection';
+export { useIntersection, IntersectionProvider } from "./intersection";
+export type {
+  IntersectionConfig,
+  IntersectionContextType,
+  RegisteredElement,
+} from "./intersection";

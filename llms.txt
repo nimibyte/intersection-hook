@@ -1,0 +1,36 @@
+# LLM Index: @nimibyte/intersection-hook
+
+Project: @nimibyte/intersection-hook
+Homepage: https://github.com/nimibyte/intersection-hook
+Repository: https://github.com/nimibyte/intersection-hook
+Package: https://www.npmjs.com/package/@nimibyte/intersection-hook
+License: MIT
+
+Primary intent: React scrollspy utility powered by IntersectionObserver.
+
+Best for:
+- Highlighting active menu item based on visible content section
+- Building docs/blog table of contents navigation
+- In-page smooth scrolling to registered sections
+
+Core API:
+- IntersectionProvider
+- useIntersection
+- register({ id, label })
+- activeSection
+- sections
+- scrollTo(id)
+
+Read first:
+- README.md
+- README.ai.md
+
+Integration notes:
+- Wrap consumers with IntersectionProvider
+- Register each section with ref callback from register
+- Use sections to render nav links
+- Use activeSection for current state styling
+
+Non-goals:
+- Router-level active path management
+- Framework-agnostic usage outside React
